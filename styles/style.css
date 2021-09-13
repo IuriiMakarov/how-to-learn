@@ -36,11 +36,11 @@
 }
 
 .logo {
-  position: absolute;
+  width: 183px;
 }
 
 .logo_place_header{
-  width: 183px;
+  position: absolute;
   height: 32px;
   top: 30px;
   left: 64px;
@@ -317,17 +317,15 @@
   display: flex;
   flex-basis: 711px;
   flex-direction: column;
-  justify-content: end;
 }
 
 .logo_place_footer {
-  top: 0;
-  left: 0;
-  width: 183px;
+  display: flex;
   height: 35px;
 }
 
 .footer__author {
+  position: absolute;
   margin-bottom: 18px;
   font-weight: 18px;
   line-height: 25px;
