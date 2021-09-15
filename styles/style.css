@@ -317,21 +317,19 @@
   display: flex;
   flex-basis: 711px;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
-  display: flex;
   height: 35px;
 }
 
 .footer__author {
-  position: absolute;
   margin-bottom: 18px;
+  margin-top: 18px;
   font-weight: 18px;
   line-height: 25px;
   font-style: normal;
-  bottom: 0;
-  margin-top: 18px;
   color: white;
 }
 
